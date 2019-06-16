@@ -1,6 +1,6 @@
 {
   "name": "@alemesa/react-use-window-size",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "React Hook that uses the window size",
   "main": "index.js",
   "scripts": {
@@ -23,12 +23,13 @@
     "url": "https://github.com/alemesa/react-use-window-size/issues"
   },
   "homepage": "https://github.com/alemesa/react-use-window-size#readme",
-  "peerDependencies": {
-    "react": ">=16.8.0",
+  "dependencies": {
     "use-debounce": "^2.1.0"
   },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
   "devDependencies": {
-    "react": "^16.8.1",
-    "use-debounce": "^2.1.0"
+    "react": "^16.8.1"
   }
 }
